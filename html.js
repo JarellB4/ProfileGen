@@ -7,7 +7,7 @@ function makeCard(People) {
               newcard = newcard.concat(`<div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">${People[i].name}</h5>
-                <h6 class="card-subtitle mb-2 ">${People[i].email}</h6>
+                <h6 class="card-subtitle md-2 ">Email: <a href="mailto:${People[i].email}>:${People[i].email}</a></h6>
                 <h6 class="card-subtitle mb-2 ">${People[i].position}</h6>
                 <h6 class="card-subtitle mb-2 ">${People[i].id}</h6>
                 <h6 class="card-subtitle mb-2 ">${People[i].officenumber}</h6>
@@ -19,10 +19,10 @@ function makeCard(People) {
                     newcard = newcard.concat(`<div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">${People[i].name}</h5>
-                      <h6 class="card-subtitle mb-2 ">${People[i].email}</h6>
+                      <h6 class="card-subtitle md-2 ">Email: <a href="mailto:${People[i].email}>:${People[i].email}</a></h6>
                       <h6 class="card-subtitle mb-2 ">${People[i].position}</h6>
                       <h6 class="card-subtitle mb-2 ">${People[i].id}</h6>
-                      <h6 class="card-subtitle mb-2 ">${People[i].github}</h6>
+                      <h6 class="card-subtitle md-2">Github: <a href="https://github.com/${People[i].github}" target="_blank">${People[i].github}</a></h6>
                     </div>
                   </div>`)
                     break;
@@ -31,7 +31,7 @@ function makeCard(People) {
                     newcard = newcard.concat(`<div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">${People[i].name}</h5>
-                      <h6 class="card-subtitle mb-2 ">${People[i].email}</h6>
+                      <h6 class="card-subtitle md-2 ">Email: <a href="mailto:${People[i].email}>:${People[i].email}</a></h6>
                       <h6 class="card-subtitle mb-2 ">${People[i].position}</h6>
                       <h6 class="card-subtitle mb-2 ">${People[i].id}</h6>
                       <h6 class="card-subtitle mb-2 ">${People[i].school}</h6>
