@@ -1,5 +1,5 @@
-const { hasUncaughtExceptionCaptureCallback } = require("process")
-const Employee = require("./lib/Employee")
+// const employee = require("process")
+const Employee = require("../lib/Employee")
 describe("Employee class", () => {
     describe("initialization", () => {
     it ("Create an object with name id and email", () =>{
